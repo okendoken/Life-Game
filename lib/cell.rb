@@ -7,12 +7,8 @@ class Cell
   end
 
   def neighbours_count
-    begin
     self.left.value + self.top.value + self.right.value + self.bottom.value +
         self.top_left.value + self.top_right.value + self.bottom_right.value + self.bottom_left.value
-    rescue Object => e
-      puts e
-    end
   end
 
   def dies?

@@ -1,6 +1,6 @@
 require "C:/Users/Philip/RubymineProjects/Life/lib/cell.rb"
 
-FIELD_SIZE = 40
+FIELD_SIZE = 30
 
 class Field
 
